@@ -1,0 +1,11 @@
+{
+    "addTaskStatus": "添加任務狀態",
+    "button": {
+        "addTaskStatus": "添加任務狀態"
+    },
+    "deleteTaskStatusMessage": "您確定要刪除此任務狀態嗎？",
+    "name": "名稱",
+    "searchByName": "名稱搜索",
+    "settings": "設置",
+    "taskStatus": "任務狀態"
+}

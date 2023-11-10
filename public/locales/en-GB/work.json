@@ -1,0 +1,18 @@
+{
+    "addWork": "Add Work",
+    "button": {
+        "addField": "Add Field"
+    },
+    "code": "Code",
+    "description": "Description",
+    "fieldIsRequired": "Field is required",
+    "fields": "Fields",
+    "loading": "Loading",
+    "name": "Name",
+    "remove": "Remove",
+    "required": "Required",
+    "searchByCodeOrName": "Search by Code or Name",
+    "selectFields": "Select Fields",
+    "settings": "Settings",
+    "work": "Work"
+}

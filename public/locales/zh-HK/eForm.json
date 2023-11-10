@@ -1,0 +1,17 @@
+{
+    "active": "活躍",
+    "addEForm": "新增電子表格",
+    "areYouSureYouWantToDeleteThisDocument": "您確定要刪除此文件嗎",
+    "button": {
+        "addEForm": "新增電子表格"
+    },
+    "clickOrDragFileToThisAreaToUpload": "點擊或拖曳文件到此區域上傳",
+    "eForm": "電子表格",
+    "fileSizeError": "檔案大小錯誤",
+    "inactive": "不活躍的",
+    "name": "名字",
+    "pdfFile": "PDF 文件",
+    "searchByName": "按名稱搜尋",
+    "settings": "設定",
+    "supportForASingleOrBulkUpload": "支援單一或批次上傳"
+}

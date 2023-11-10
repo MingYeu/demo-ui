@@ -1,0 +1,18 @@
+{
+    "addJob": "Add Job",
+    "amount": "Amount",
+    "class": "Class",
+    "code": "Code",
+    "deleteJobMessage": "Are you sure want to delete this Job?",
+    "description": "Description",
+    "job": "Job",
+    "jobType": "Job Type",
+    "jurisdiction": "Jurisdiction",
+    "name": "Name",
+    "searchByCodeOrName": "Search by Code or Name",
+    "settings": "Settings",
+    "createdAt": "Created At",
+    "jobId": "Job ID",
+    "personInCharge": "Person In Charge",
+    "resetFilter": "Reset Filter"
+}

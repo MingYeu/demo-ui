@@ -1,0 +1,46 @@
+{
+    "accountNumber": "帳號",
+    "addressChinese": "通訊地址（中文）",
+    "addressEnglish": "通訊地址（英文）",
+    "bankName": "銀行名",
+    "button": {
+        "Cancel": "取消",
+        "saveChanges": "保存更改",
+        "Upload": "上傳"
+    },
+    "clickToUploadCompanySignature": "",
+    "clickToUploadCompanyStamp": "",
+    "clickToUploadFpsQrCode": "點擊上傳fps二維碼",
+    "companyLogo": "公司標誌",
+    "Crop Profile Picture": "裁剪圖片",
+    "cropCompanySignature": "裁剪公司簽名",
+    "cropCompanyStamp": "裁剪公司郵票",
+    "disclaimer": "免責聲明",
+    "email": "電子郵件",
+    "footerCompanyNameChinese": "頁腳公司名稱中文",
+    "footerCompanyNameEnglish": "頁腳公司名稱英文",
+    "fps": "FPS",
+    "fpsImages": "fps圖像",
+    "fpsNumber": "fps號碼",
+    "generalInfo": "基本信息",
+    "headerCompanyNameChinese": "標題公司名稱中文",
+    "headerCompanyNameEnglish": "標題公司名稱英文",
+    "hint": {
+        "Click or drag file to this area to upload": "點擊或拖曳文件至此處上傳",
+        "Supported Files": "支援文件：.png | .jpg | .jpeg | .webp"
+    },
+    "message": {
+        "File size must be less than 10MB": "文件大小必須小於 10MB"
+    },
+    "nameOfBeneficiary": "受益人姓名",
+    "phoneNumber": "電話號碼",
+    "routeDomestic": "Route Domestic",
+    "routeDomestic1": "Route Domestic 1",
+    "routeDomestic2": "Route Domestic 2",
+    "signature": "簽名",
+    "siteSetting": "網站設定",
+    "stamp": "蓋章",
+    "stamp&signature": "蓋章和簽名",
+    "swiftCode": "Swift Code",
+    "website": "網站"
+}

@@ -1,0 +1,13 @@
+{
+    "activity": "活動",
+    "addAlarm": "新增提醒",
+    "alarm": "提醒",
+    "alarmName": "提醒名稱",
+    "areYouSureYouWantToDeleteThisAlarm?": "您確定要刪除這個提醒嗎？",
+    "createdAt": "建立於",
+    "deleteAlarm": "刪除提醒",
+    "description": "描述",
+    "goToActivity": "前往活動",
+    "reason": "原因",
+    "status": "狀態"
+}

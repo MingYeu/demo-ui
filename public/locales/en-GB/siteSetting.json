@@ -1,0 +1,46 @@
+{
+    "accountNumber": "Account Number",
+    "addressChinese": "Address (Chinese)",
+    "addressEnglish": "Address (English)",
+    "bankName": "Bank Name",
+    "button": {
+        "Cancel": "Cancel",
+        "saveChanges": "Save Changes",
+        "Upload": "Upload"
+    },
+    "clickToUploadCompanySignature": "Click To Upload Company Signature",
+    "clickToUploadCompanyStamp": "Click To Upload Company Stamp",
+    "clickToUploadFpsQrCode": "Click to Upload fps QR Code",
+    "companyLogo": "Company Logo",
+    "Crop Profile Picture": "Crop Profile Picture",
+    "cropCompanySignature": "Crop Company Signature",
+    "cropCompanyStamp": "Crop Company Stamp",
+    "disclaimer": "Disclaimer",
+    "email": "Email",
+    "footerCompanyNameChinese": "Footer Company Name (Chinese)",
+    "footerCompanyNameEnglish": "Footer Company Name (English)",
+    "fps": "FPS",
+    "fpsImages": "FPS Image",
+    "fpsNumber": "FPS number",
+    "generalInfo": "General Info",
+    "headerCompanyNameChinese": "Header Company Name (Chinese)",
+    "headerCompanyNameEnglish": "Header Company Name (English)",
+    "hint": {
+        "Click or drag file to this area to upload": "Click or drag file to this area to upload",
+        "Supported Files": "Support files: .png | .jpg | .jpeg | .webp"
+    },
+    "message": {
+        "File size must be less than 10MB": "File size must be less than 10MB"
+    },
+    "nameOfBeneficiary": "Name of Beneficiary",
+    "phoneNumber": "Phone Number",
+    "routeDomestic": "Route Domestic",
+    "routeDomestic1": "Route Domestic 1",
+    "routeDomestic2": "Route Domestic 2",
+    "signature": "Signature",
+    "siteSetting": "Site Setting",
+    "stamp": "Stamp",
+    "stamp&signature": "Stamp & Signature",
+    "swiftCode": "Swift Code",
+    "website": "Website"
+}

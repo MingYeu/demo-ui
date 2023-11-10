@@ -1,0 +1,8 @@
+{
+    "button": {
+        "generateReport": "Generate Report"
+    },
+    "report": "Report",
+    "selectStatus": "Select Status",
+    "status": "Status"
+}

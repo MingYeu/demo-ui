@@ -1,0 +1,10 @@
+{
+    "addJurisdiction": "Add Jurisdiction",
+    "code": "Code",
+    "deleteJurisdictionMessage": "Are you sure want to delete this Jurisdiction?",
+    "description": "Description",
+    "jurisdiction": "Jurisdiction",
+    "name": "Name",
+    "searchByCodeOrName": "Search by Code or Name",
+    "settings": "Settings"
+}

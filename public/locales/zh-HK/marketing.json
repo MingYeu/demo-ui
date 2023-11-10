@@ -1,0 +1,43 @@
+{
+    "activate": "激活",
+    "activateMarketingMessage": "您確定要激活此營銷嗎？",
+    "active": "活躍",
+    "addMarketing": "添加營銷",
+    "attachment": "附件",
+    "body": "內容",
+    "deactivate": "停用",
+    "deactivateMarketingMessage": "您確定要停用此營銷嗎？",
+    "delete": "刪除",
+    "deleteMarketingMessage": "您確定要刪除此營銷嗎？",
+    "draft": "草稿",
+    "email": "電子郵件",
+    "group": {
+        "completed": "已完成",
+        "index": "組",
+        "inProgress": "進行中",
+        "name": "名稱",
+        "status": "狀態",
+        "unknown": "未知"
+    },
+    "import": "導入",
+    "inactive": "不活躍",
+    "marketing": "營銷",
+    "marketingActiveNotAllowToEditTemplateAndAttachment": "營銷活動正在進行中，您不能編輯模板和附件。",
+    "marketingData": "營銷數據",
+    "marketingDraftMessage": "營銷活動處於「草稿」狀態，請先填寫模板並上傳附件，然後再激活。",
+    "marketingInactiveNotAllowToEditTemplateAndAttachment": "營銷處於非活動狀態，您無法編輯模板和附件。",
+    "marketingName": "營銷名稱",
+    "name": "名稱",
+    "receiver": {
+        "failed": "失敗",
+        "sent": "已發送"
+    },
+    "remove": "移除",
+    "removeAttachmentConfirmation": "您確定要刪除此附件嗎？",
+    "searchName": "搜索名稱",
+    "status": "狀態",
+    "subject": "標題",
+    "template": "模板",
+    "update": "修改",
+    "upload": "上傳"
+}

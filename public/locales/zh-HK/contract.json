@@ -1,0 +1,24 @@
+{
+    "-- Select Consultant --": "-- 選擇顧問 --",
+    "action": "操作",
+    "addContract": "新增合約",
+    "body": "內容",
+    "button": {
+        "addContract": "新增合約",
+        "contractList": "合約列表",
+        "delete": "刪除",
+        "deleteContract": "刪除合約",
+        "preview": "預覽",
+        "updateContract": "更新合約"
+    },
+    "case": "Case",
+    "confirmationDate": "確認日期",
+    "consultant": "顧問",
+    "contract": "合約",
+    "createdAt": "創建於",
+    "Image is too large": "圖像太大",
+    "issueDate": "發行日期",
+    "job": "Job",
+    "jobDescriptions": "Job描述",
+    "referenceNo": "參考編號"
+}

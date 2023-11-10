@@ -1,0 +1,11 @@
+{
+    "addTaskStatus": "Add Task Status",
+    "button": {
+        "addTaskStatus": "Add Task Status"
+    },
+    "deleteTaskStatusMessage": "Are you sure want to delete this Task Status?",
+    "name": "Name",
+    "searchByName": "Search by Name",
+    "settings": "Settings",
+    "taskStatus": "Task Status"
+}

@@ -1,0 +1,8 @@
+{
+    "button": {
+        "generateReport": "生成報告"
+    },
+    "report": "報告",
+    "selectStatus": "選擇狀態",
+    "status": "狀態"
+}

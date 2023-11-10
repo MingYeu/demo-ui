@@ -1,0 +1,11 @@
+{
+    "button": {
+        "cancel": "取消",
+        "resetPassword": "重置密碼"
+    },
+    "email": "電子郵件",
+    "forgotPassword": "忘記密碼？",
+    "login": "登入",
+    "password": "密碼",
+    "username": "登入名稱"
+}

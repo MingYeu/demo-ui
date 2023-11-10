@@ -1,0 +1,18 @@
+{
+    "addWork": "添加 Work",
+    "button": {
+        "addField": "添加字段"
+    },
+    "code": "代碼",
+    "description": "描述",
+    "fieldIsRequired": "字段為必填項",
+    "fields": "字段",
+    "loading": "加載中",
+    "name": "名稱",
+    "remove": "移除",
+    "required": "必填項",
+    "searchByCodeOrName": "按代碼或名稱搜索",
+    "selectFields": "選擇字段",
+    "settings": "設置",
+    "work": "Work"
+}

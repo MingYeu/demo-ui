@@ -1,0 +1,18 @@
+{
+    "addJob": "新增Job",
+    "amount": "金額",
+    "class": "Class",
+    "code": "代碼",
+    "deleteJobMessage": "您確定要刪除此Job嗎？",
+    "description": "描述",
+    "job": "Job",
+    "jobType": "Job類型",
+    "jurisdiction": "Jurisdiction",
+    "name": "名稱",
+    "searchByCodeOrName": "按代碼或名稱搜索",
+    "settings": "設置",
+    "createdAt": "建立於",
+    "jobId": "Job ID",
+    "personInCharge": "負責人",
+    "resetFilter": "重置篩選"
+}

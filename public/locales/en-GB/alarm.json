@@ -1,0 +1,13 @@
+{
+    "activity": "Activity",
+    "addAlarm": "Add Alarm",
+    "alarm": "Alarm",
+    "alarmName": "Alarm Name",
+    "areYouSureYouWantToDeleteThisAlarm?": "Are you sure want to delete this alarm?",
+    "createdAt": "Created At",
+    "deleteAlarm": "Delete Alarm",
+    "description": "Description",
+    "goToActivity": "Go to Activity",
+    "reason": "Reason",
+    "status": "Status"
+}

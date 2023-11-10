@@ -1,0 +1,24 @@
+{
+    "-- Select Consultant --": "-- Select Consultant --",
+    "action": "Action",
+    "addContract": "Add Contract",
+    "body": "Body",
+    "button": {
+        "addContract": "Add Contract",
+        "contractList": "Contract List",
+        "delete": "Delete",
+        "deleteContract": "Delete Contract",
+        "preview": "Preview",
+        "updateContract": "Update Contract"
+    },
+    "case": "Case",
+    "confirmationDate": "Confirmation Date",
+    "consultant": "Consultant",
+    "contract": "Contract",
+    "createdAt": "Created At",
+    "Image is too large": "Image is too large",
+    "issueDate": "Issue Date",
+    "job": "Job",
+    "jobDescriptions": "Job Descriptions",
+    "referenceNo": "Reference No"
+}

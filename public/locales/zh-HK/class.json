@@ -1,0 +1,10 @@
+{
+    "addClass": "新增Class",
+    "class": "Class",
+    "code": "代碼",
+    "deleteClassMessage": "您確定要刪除此Class嗎？",
+    "description": "描述",
+    "name": "名稱",
+    "searchByCodeOrName": "按代碼或名稱搜索",
+    "settings": "設置"
+}

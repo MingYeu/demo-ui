@@ -1,0 +1,34 @@
+interface Staff {
+    id: string;
+    staffId: string;
+    englishName: string;
+    chineseName: string | null;
+    nickname: string;
+    dateOfBirth: string;
+    nationality: string;
+    documentNumber: string;
+    dateOfJoin: string;
+    position: string;
+    directLine: string | null;
+    mobile1: string;
+    mobile2: string | null;
+    email: string;
+    address: string;
+    remarks: string | null;
+    username: string;
+    password: boolean;
+    lastActive: string;
+    active: boolean;
+    token: string | null;
+    tokenExpiredAt: string | null;
+    resetToken: string | null;
+    resetTokenExpiredAt: string | null;
+    departmentId: string;
+    department: Department;
+    activityLogs: ActivityLog[];
+    clientPersonInCharge: ClientPersonInCharge[];
+    agentPersonInCharge: AgentPersonInCharge[];
+    caseInCharges: CasePersonInCharge[];
+    activities: CaseJobTaskActivity[];
+    _count: { Notification_Status: number };
+}

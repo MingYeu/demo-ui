@@ -1,0 +1,10 @@
+{
+    "addClass": "Add Class",
+    "class": "Class",
+    "code": "Code",
+    "deleteClassMessage": "Are you sure want to delete this Class?",
+    "description": "Description",
+    "name": "Name",
+    "searchByCodeOrName": "Search by Code or Name",
+    "settings": "Settings"
+}

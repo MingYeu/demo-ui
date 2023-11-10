@@ -1,0 +1,17 @@
+{
+    "active": "Active",
+    "addEForm": "Add E-Form",
+    "areYouSureYouWantToDeleteThisDocument": "Are You Sure You Want To Delete This Document",
+    "button": {
+        "addEForm": "Add E-Form"
+    },
+    "clickOrDragFileToThisAreaToUpload": "Click Or Drag File To This Area To Upload",
+    "eForm": "eForm",
+    "fileSizeError": "File Size Error",
+    "inactive": "Inactive",
+    "name": "Name",
+    "pdfFile": "PDF File",
+    "searchByName": "Search By Name",
+    "settings": "Settings",
+    "supportForASingleOrBulkUpload": "Support For A Single Or Bulk Upload"
+}

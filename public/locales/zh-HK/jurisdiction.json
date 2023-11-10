@@ -1,0 +1,10 @@
+{
+    "addJurisdiction": "新增Jurisdiction",
+    "code": "代碼",
+    "deleteJurisdictionMessage": "您確定要刪除此Jurisdiction嗎？",
+    "description": "描述",
+    "jurisdiction": "Jurisdiction",
+    "name": "名稱",
+    "searchByCodeOrName": "按代碼或名稱搜索",
+    "settings": "設置"
+}

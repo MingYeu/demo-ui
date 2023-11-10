@@ -1,0 +1,552 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5px;
+    font-family: var(--font-ubuntu);
+}
+
+.loginBackground {
+    background-color: #ffffff;
+    background-image: url('/images/cubes.png');
+}
+
+.table_container {
+    @apply mt-5;
+}
+
+.config_container {
+    @apply my-1;
+}
+
+.react-tel-input input {
+    width: 100% !important;
+}
+
+.ant-descriptions-row .ant-descriptions-item {
+    @apply !pb-0;
+}
+.tinymce-preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Print CSS */
+
+table.client-info-table {
+    @apply w-full text-black border-collapse;
+}
+
+table.client-info-table :where(td, th) {
+    /* Enable borders */
+    /* border-width: 2px;
+    border-color: #000000;
+    border-style: solid; */
+
+    @apply p-[3px] print:text-[.625rem] text-start;
+}
+
+.quotation-body table :where(td, th) {
+    @apply p-2 border border-gray-300 border-solid;
+}
+
+.print-content p {
+    @apply pb-4;
+}
+.print-content table {
+    @apply my-2;
+}
+@page {
+    size: a4;
+    margin: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .jobCard .ant-card-head {
+    @apply !bg-slate-200;
+} */
+
+.jobCard .ant-card-head {
+    @apply border-b-slate-300;
+}
+
+/* END Print CSS */
+
+/* Contract Print Css Table */
+
+.alternate-rows {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.alternate-rows th,
+.alternate-rows td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.alternate-rows tr:nth-child(even) {
+    background-color: white; /* White background for even rows */
+}
+
+.alternate-rows tr:nth-child(odd) {
+    background-color: rgb(197, 192, 192); /* Gray background for odd rows */
+}
+
+/* A4 size CSS */
+
+.a4-size-div {
+    @apply aspect-[7.6/10] max-w-[1000px] mx-auto;
+    page-break-after: always;
+}
+
+.page-break {
+    page-break-before: always;
+}
+
+.a4-size-table {
+    width: 100%;
+}
+.a4-size-table td {
+    padding-left: 20px; /* Adjust the value to set the desired spacing */
+}
+
+.a4-size-table tr {
+    padding-left: 20px; /* Adjust the value to set the desired spacing */
+}
+
+.times-new-roman * {
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.invoice-table-left {
+    @apply text-left;
+}
+.invoice-table-right {
+    @apply text-right;
+}
+
+table.payment-client-info-table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+table.payment-client-info-table :where(td, th) {
+    border-right: 1px solid black;
+    padding: 1px;
+    padding-left: 5px;
+}
+
+table.payment-receipt-info-table {
+    @apply w-full border-collapse;
+}
+
+table.payment-receipt-info-table :where(td, th) {
+    /*Enable borders */
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+
+    @apply p-[5px];
+}
+
+table.invoice-receipt-info-table {
+    @apply border-collapse;
+}
+
+table.invoice-receipt-info-table :where(td, th) {
+    /*Enable borders */
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+
+    @apply p-[5px];
+}
+
+table.route-domestic-info-table {
+    border-collapse: collapse;
+}
+
+table.route-domestic-info-table :where(td, th) {
+    /* border: 0px; */
+    border-right: 1px solid black;
+    padding: 1px;
+}
+
+table.no-border-table {
+    border-collapse: collapse;
+}
+
+table.no-border-table :where(td, th) {
+    /* border: 0px; */
+    border-right: 0px;
+    padding: 1px;
+}
+
+table.all-border-table {
+    @apply w-full border-collapse;
+}
+
+table.all-border-table :where(td, th) {
+    /*Enable borders */
+    border-width: 1px;
+    border-color: #000000;
+    border-style: solid;
+
+    @apply p-[5px];
+}
+
+table.bottom-border-table {
+    @apply w-full border-collapse;
+}
+
+table.bottom-border-table :where(td, th) {
+    /* border: 0px; */
+    border-bottom: 1px solid black;
+    @apply py-[10px];
+}
+
+table.th-bottom-border-table {
+    @apply w-full border-collapse;
+}
+
+table.th-bottom-border-table :where(th) {
+    /* border: 0px; */
+    border-bottom: 1px solid black;
+    @apply p-[10px];
+}
+
+table.th-bottom-border-table :where(td) {
+    /* border: 0px; */
+    border-right: 1px solid black;
+    @apply p-[10px];
+}
+
+.th-alternate-rows {
+    @apply w-full border-collapse;
+}
+
+.th-alternate-rows td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.th-alternate-rows tr:nth-child(even) {
+    background-color: rgb(197, 192, 192); /* White background for even rows */
+}
+
+.th-alternate-rows tr:nth-child(odd) {
+    background-color: white; /* Gray background for odd rows */
+}
+
+.disclaimer p {
+    @apply pb-1;
+}
+
+/* Ring Belt Animation */
+.bell {
+    -webkit-animation: ring 4s 0.7s ease-in-out infinite;
+    -webkit-transform-origin: 50% 4px;
+    -moz-animation: ring 4s 0.7s ease-in-out infinite;
+    -moz-transform-origin: 50% 4px;
+    animation: ring 4s 0.7s ease-in-out infinite;
+    transform-origin: 50% 4px;
+}
+
+@-webkit-keyframes ring {
+    0% {
+        -webkit-transform: rotateZ(0);
+    }
+
+    1% {
+        -webkit-transform: rotateZ(30deg);
+    }
+
+    3% {
+        -webkit-transform: rotateZ(-28deg);
+    }
+
+    5% {
+        -webkit-transform: rotateZ(34deg);
+    }
+
+    7% {
+        -webkit-transform: rotateZ(-32deg);
+    }
+
+    9% {
+        -webkit-transform: rotateZ(30deg);
+    }
+
+    11% {
+        -webkit-transform: rotateZ(-28deg);
+    }
+
+    13% {
+        -webkit-transform: rotateZ(26deg);
+    }
+
+    15% {
+        -webkit-transform: rotateZ(-24deg);
+    }
+
+    17% {
+        -webkit-transform: rotateZ(22deg);
+    }
+
+    19% {
+        -webkit-transform: rotateZ(-20deg);
+    }
+
+    21% {
+        -webkit-transform: rotateZ(18deg);
+    }
+
+    23% {
+        -webkit-transform: rotateZ(-16deg);
+    }
+
+    25% {
+        -webkit-transform: rotateZ(14deg);
+    }
+
+    27% {
+        -webkit-transform: rotateZ(-12deg);
+    }
+
+    29% {
+        -webkit-transform: rotateZ(10deg);
+    }
+
+    31% {
+        -webkit-transform: rotateZ(-8deg);
+    }
+
+    33% {
+        -webkit-transform: rotateZ(6deg);
+    }
+
+    35% {
+        -webkit-transform: rotateZ(-4deg);
+    }
+
+    37% {
+        -webkit-transform: rotateZ(2deg);
+    }
+
+    39% {
+        -webkit-transform: rotateZ(-1deg);
+    }
+
+    41% {
+        -webkit-transform: rotateZ(1deg);
+    }
+
+    43% {
+        -webkit-transform: rotateZ(0);
+    }
+
+    100% {
+        -webkit-transform: rotateZ(0);
+    }
+}
+
+@-moz-keyframes ring {
+    0% {
+        -moz-transform: rotate(0);
+    }
+
+    1% {
+        -moz-transform: rotate(30deg);
+    }
+
+    3% {
+        -moz-transform: rotate(-28deg);
+    }
+
+    5% {
+        -moz-transform: rotate(34deg);
+    }
+
+    7% {
+        -moz-transform: rotate(-32deg);
+    }
+
+    9% {
+        -moz-transform: rotate(30deg);
+    }
+
+    11% {
+        -moz-transform: rotate(-28deg);
+    }
+
+    13% {
+        -moz-transform: rotate(26deg);
+    }
+
+    15% {
+        -moz-transform: rotate(-24deg);
+    }
+
+    17% {
+        -moz-transform: rotate(22deg);
+    }
+
+    19% {
+        -moz-transform: rotate(-20deg);
+    }
+
+    21% {
+        -moz-transform: rotate(18deg);
+    }
+
+    23% {
+        -moz-transform: rotate(-16deg);
+    }
+
+    25% {
+        -moz-transform: rotate(14deg);
+    }
+
+    27% {
+        -moz-transform: rotate(-12deg);
+    }
+
+    29% {
+        -moz-transform: rotate(10deg);
+    }
+
+    31% {
+        -moz-transform: rotate(-8deg);
+    }
+
+    33% {
+        -moz-transform: rotate(6deg);
+    }
+
+    35% {
+        -moz-transform: rotate(-4deg);
+    }
+
+    37% {
+        -moz-transform: rotate(2deg);
+    }
+
+    39% {
+        -moz-transform: rotate(-1deg);
+    }
+
+    41% {
+        -moz-transform: rotate(1deg);
+    }
+
+    43% {
+        -moz-transform: rotate(0);
+    }
+
+    100% {
+        -moz-transform: rotate(0);
+    }
+}
+
+@keyframes ring {
+    0% {
+        transform: rotate(0);
+    }
+
+    1% {
+        transform: rotate(30deg);
+    }
+
+    3% {
+        transform: rotate(-28deg);
+    }
+
+    5% {
+        transform: rotate(34deg);
+    }
+
+    7% {
+        transform: rotate(-32deg);
+    }
+
+    9% {
+        transform: rotate(30deg);
+    }
+
+    11% {
+        transform: rotate(-28deg);
+    }
+
+    13% {
+        transform: rotate(26deg);
+    }
+
+    15% {
+        transform: rotate(-24deg);
+    }
+
+    17% {
+        transform: rotate(22deg);
+    }
+
+    19% {
+        transform: rotate(-20deg);
+    }
+
+    21% {
+        transform: rotate(18deg);
+    }
+
+    23% {
+        transform: rotate(-16deg);
+    }
+
+    25% {
+        transform: rotate(14deg);
+    }
+
+    27% {
+        transform: rotate(-12deg);
+    }
+
+    29% {
+        transform: rotate(10deg);
+    }
+
+    31% {
+        transform: rotate(-8deg);
+    }
+
+    33% {
+        transform: rotate(6deg);
+    }
+
+    35% {
+        transform: rotate(-4deg);
+    }
+
+    37% {
+        transform: rotate(2deg);
+    }
+
+    39% {
+        transform: rotate(-1deg);
+    }
+
+    41% {
+        transform: rotate(1deg);
+    }
+
+    43% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}

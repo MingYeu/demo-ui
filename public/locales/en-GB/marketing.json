@@ -1,0 +1,43 @@
+{
+    "activate": "Activate",
+    "activateMarketingMessage": "Activate Marketing Message",
+    "active": "Active",
+    "addMarketing": "Add Marketing",
+    "attachment": "Attachment",
+    "body": "Body",
+    "deactivate": "Deactivate",
+    "deactivateMarketingMessage": "Deactivate Marketing Message",
+    "delete": "Delete",
+    "deleteMarketingMessage": "Are you sure want to delete this marketing?",
+    "draft": "Draft",
+    "email": "Email",
+    "group": {
+        "completed": "Completed",
+        "index": "Group",
+        "inProgress": "In Progress",
+        "name": "Name",
+        "status": "Status",
+        "unknown": "Unknown"
+    },
+    "import": "Import",
+    "inactive": "Inactive",
+    "marketing": "Marketing",
+    "marketingActiveNotAllowToEditTemplateAndAttachment": "Marketing is active, you are not allowed to edit template and attachment.",
+    "marketingData": "Marketing Data",
+    "marketingDraftMessage": "Marketing is in \"DRAFT\" status, please fill up the template and upload the attachment before ACTIVATE it.",
+    "marketingInactiveNotAllowToEditTemplateAndAttachment": "Marketing is inactive, you are not allowed to edit template and attachment.",
+    "marketingName": "Marketing Name",
+    "name": "Name",
+    "receiver": {
+        "failed": "Failed",
+        "sent": "Sent"
+    },
+    "remove": "Remove",
+    "removeAttachmentConfirmation": "Remove Attachment Confirmation",
+    "searchName": "Search Name",
+    "status": "Status",
+    "subject": "Subject",
+    "template": "Template",
+    "update": "Update",
+    "upload": "Upload"
+}
